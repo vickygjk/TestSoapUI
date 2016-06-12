@@ -1,20 +1,36 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>Soapui</groupId>
-  <artifactId>Soapui</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+<!--      <parent>
+        <groupId>com.smartbear.soapui</groupId>
+        <artifactId>soapui-project</artifactId>
+        <version>5.1.2</version>
+    </parent> -->
+     <groupId>com.smartbear.samples</groupId>
+     <artifactId>soapui-maven2-plugin</artifactId>
+  	 <version>0.0.1-SNAPSHOT</version>
+     <packaging>jar</packaging>
 
-  <name>Soapui</name>
-  <url>http://maven.apache.org</url>
+  	 <name>Maven 2 SoapUI Sample</name>
+  	 <url>http://maven.apache.org</url>
+	
+     <description>Documentation: http://www.soapui.org/Test-Automation/maven-2x.html</description>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    
+    <pluginRepositories>
+        <pluginRepository>
+            <id>SmartBearPluginRepository</id>
+            <url>http://www.soapui.org/repository/maven2/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
- 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -22,14 +38,89 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    
   </dependencies>
-  <build>  
-        <plugins>
-            <plugin>
-                <groupId>soapui</groupId>
+  
+  
+    <build>
+		<plugins>
+
+            <!-- FIXME Why do we need this plugin ? -->
+			<plugin>
+<!--			
+			    <groupId>com.smartbear.soapui</groupId>
                 <artifactId>soapui-pro-maven-plugin</artifactId>
-                <version>5.1.2</version>             
-            </plugin>
-         </plugins>   
-    </build>
+                <version>5.1.2</version>
+                --> 
+                 <artifactId>maven-antrun-plugin</artifactId>  
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<configuration>
+							<tasks>
+								<copy file="pom.xml"
+									tofile="${project.build.directory}/maven-soapui-plugin-${project.version}.pom" />
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+				
+			</plugin>
+  
+			<plugin>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<descriptors>
+						<descriptor>src/project_xml/IMUserInfo-soapui-project.xml</descriptor>
+					</descriptors>
+				</configuration>
+			</plugin>
+			<plugin>
+  			    <groupId>com.smartbear.soapui</groupId> 
+                <artifactId>soapui-pro-maven-plugin</artifactId>
+                <version>5.1.2</version> 
+				<executions>
+                    <execution>
+                        <id>SoapuiIMUser</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <configuration>
+                            <projectFile>src/project_xml/IMUserInfo-soapui-project.xml</projectFile>
+                            <host>http://121.40.167.147/v1/users</host>
+                            <outputFolder>src/project_report/</outputFolder>
+                            <junitReport>true</junitReport>
+                            <printReport>true</printReport>
+                            
+                            <projectProperties>
+                                <value>appId=gjk001001</value>
+                                <value>thirdUserId=1111111111</value>
+                                <value>source=doctor</value>
+                                <value>nickname=lucy2</value>
+                                <value>source=http://img.example.com/avatar.jpg</value>                       
+                            </projectProperties>
+                            
+                            <soapuiProperties>
+                                <property>
+                                    <name>soapui.logroot</name>
+                                    <value>${project.build.directory}/soapui-logs/</value>
+                                </property>
+                                 <property>
+                                        <name>soapui.scripting.library</name>
+                                        <value>src/test/resources</value>
+                                 </property>
+                            </soapuiProperties>
+                             
+                        </configuration>
+                    </execution>
+                </executions>
+			</plugin>
+			
+		</plugins>
+	</build>
 </project>

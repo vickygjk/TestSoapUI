@@ -1,6 +1,7 @@
 package Soapui;
 
 import java.io.File;
+
 import java.io.IOException;
 
 import junit.framework.Test;
@@ -32,7 +33,7 @@ public class AppTest extends TestCase {
 	 * Rigourous Test :-)
 	 */
 	public void testApp() {
-		assertTrue(true);
+	//	assertTrue(true);
 		File dir = new File("");
 		/**
 		 * 案例报告存放路径
@@ -51,9 +52,9 @@ public class AppTest extends TestCase {
 						// +"cd D:\\Program
 						// Files\\SmartBear\\SoapUI-Pro-5.1.2\\bin"
 						+ " D:\\Program Files\\SmartBear\\SoapUI-Pro-5.1.2\\bin\\testrunner.bat -r -j " + path
-						+ "报告单列表.xml -f " + reportPath + " -FPDF";
+						+ "IMUserInfo-soapui-project.xml -f " + reportPath + "-FPDF";
 
-		System.out.println("报告存放路径:" + reportPath);
+		System.out.println("reportPath:" + reportPath);
 		System.out.println("path:" + path);
 		System.out.println("common: " + common);
 		try {

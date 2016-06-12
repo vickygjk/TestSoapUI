@@ -1,8 +1,5 @@
 package Soapui;
 
-import java.io.File;
-import java.io.IOException;
-
 /**
  * Hello world!
  *
