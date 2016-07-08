@@ -38,7 +38,30 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.8</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.uncommons</groupId>
+      <artifactId>reportng</artifactId>
+      <version>1.1.2</version>
+      <scope>test</scope>
+        <exclusions>
+            <exclusion>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+    <dependency>
+        <groupId>com.google.inject</groupId>
+        <artifactId>guice</artifactId>
+        <version>3.0</version>
+        <scope>test</scope>
+    </dependency>
     
   </dependencies>
   
@@ -61,7 +84,9 @@
 							<tasks>
 								<copy file="pom.xml"
 									tofile="${project.build.directory}/maven-soapui-plugin-${project.version}.pom" />
-							</tasks>														
+							</tasks>
+							<echo message="${project.build.directory}" />		
+							<echo message="测试输出-------------------------------------------" />												
 						</configuration>
 						<goals>
 							<goal>run</goal>
@@ -95,6 +120,8 @@
                          <artifactId>poi-ooxml</artifactId>  
                          <version>3.10-FINAL</version >  
                          </dependency> 
+                         
+                         <!-- TestNG 生成的测试报告 --> 
  <!--                         
                          <dependency>
                            <groupId>ru.yandex.qatools.allure</groupId>
@@ -118,7 +145,7 @@
                    
 				<executions>
                     <execution>
-                        <id>ReportList</id>
+<!--                         <id>ReportList</id> --> 
                         <phase>test</phase>
                         <goals>
                             <goal>test</goal>
@@ -126,10 +153,11 @@
                         <configuration>
                             <projectFile>F:/TestSoapUI/TestSoapUI/Soapui/project_xml/ReportList.xml</projectFile>
 <!--                             <host>http://121.40.167.147:3005</host> --> 
-                            <outputFolder>F:/TestSoapUI/TestSoapUI/Soapui/project_report/</outputFolder>
-                            <reportFormat>ReportList</reportFormat>
+                            <outputFolder>F:/TestSoapUI/TestSoapUI/Soapui/project_report</outputFolder>
+ <!--                             <reportFormat>ReportList</reportFormat> -->
                             <reportName>TestCase Report</reportName>
-                            <testSuite>ReportList</testSuite>
+ <!--                            <testSuite>ReportList</testSuite> --> 
+                            
                             <junitReport>true</junitReport>
                             <printReport>true</printReport>
                             <exportAll>true</exportAll>
@@ -154,6 +182,24 @@
                              <value>ru.yandex.qatools.allure.junit.AllureRunListener</value> 
                              </property> 
                           </properties>
+                          
+               <!-- TestNG 生成的测试报告 -->           
+                          <suiteXmlFiles>  
+                              <suiteXmlFile>testng.xml</suiteXmlFile>  
+                          </suiteXmlFiles>
+                          <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+                    </properties>
+                    <workingDirectory>target/</workingDirectory>
+                          
+                          
                           
  <!--                           
                             
@@ -188,7 +234,7 @@
 		</plugins>
 	</build>
 	
- 
+<!-- TestNG 生成的测试报告 -->  
 	<reporting>
            <excludeDefaults>true</excludeDefaults>
       <plugins>
