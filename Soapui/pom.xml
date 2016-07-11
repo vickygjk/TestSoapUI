@@ -86,7 +86,8 @@
 									tofile="${project.build.directory}/maven-soapui-plugin-${project.version}.pom" />
 							</tasks>
 							<echo message="${project.build.directory}" />		
-							<echo message="测试输出-------------------------------------------" />												
+							<echo message="测试输出-------------------------------------------" />	
+							<echo message="测试输出==================================================================-------------------------------------------" />												
 						</configuration>
 						<goals>
 							<goal>run</goal>
@@ -194,7 +195,7 @@
                         </property>
                         <property>
                             <name>listener</name>
-                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                            <value>org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter</value>
                         </property>
                     </properties>
                     <workingDirectory>target/</workingDirectory>
