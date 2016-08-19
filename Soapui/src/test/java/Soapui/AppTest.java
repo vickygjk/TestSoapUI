@@ -52,7 +52,7 @@ public class AppTest extends TestCase {
 						// +"cd D:\\Program
 						// Files\\SmartBear\\SoapUI-Pro-5.1.2\\bin"
 						+ " D:\\Program Files\\SmartBear\\SoapUI-Pro-5.1.2\\bin\\testrunner.bat -r -j " + path
-						+ "IMUserInfo-soapui-project.xml -f " + reportPath + "-FPDF";
+						+ "ReportList.xml -f " + reportPath + "-FPDF";
 
 		System.out.println("reportPath:" + reportPath);
 		System.out.println("path:" + path);

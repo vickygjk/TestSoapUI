@@ -101,15 +101,14 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<descriptors>
-						<descriptor>F:/TestSoapUI/TestSoapUI/Soapui/project_xml/IMUserInfo-soapui-project.xml</descriptor>
+						<descriptor>F:/TestSoapUI/TestSoapUI/Soapui/project_xml/ReportList.xml</descriptor>
 					</descriptors>
 				</configuration>
 			</plugin>
 			<plugin>
   			    <groupId>com.smartbear.soapui</groupId> 
                 <artifactId>soapui-pro-maven-plugin</artifactId>
-                <version>5.1.2</version> 
-                
+                <version>5.1.2</version>                 
                 <dependencies>  
                    <dependency>  
                        <groupId> org.reflections</groupId >  
@@ -120,23 +119,7 @@
                          <groupId>org.apache.poi</groupId >  
                          <artifactId>poi-ooxml</artifactId>  
                          <version>3.10-FINAL</version >  
-                         </dependency> 
-                         
-                         <!-- TestNG 生成的测试报告 --> 
- <!--                         
-                         <dependency>
-                           <groupId>ru.yandex.qatools.allure</groupId>
-                           <artifactId>allure-maven-plugin</artifactId>
-                           <version>2.3</version>
-                         </dependency>
-                         
-                        <dependency>
-                          <groupId>ru.yandex.qatools.allure</groupId>
-                          <artifactId>allure-testng-adaptor</artifactId>
-                          <version>1.4.14</version>
-                        </dependency>
-                        
- -->         
+                         </dependency>                                  
  					    <dependency>
                           <groupId>org.apache.maven</groupId>
                           <artifactId>maven-plugin-api</artifactId>
@@ -182,26 +165,7 @@
                              <name>listener</name> 
                              <value>ru.yandex.qatools.allure.junit.AllureRunListener</value> 
                              </property> 
-                          </properties>
-                          
-               <!-- TestNG 生成的测试报告 -->           
-                          <suiteXmlFiles>  
-                              <suiteXmlFile>testng.xml</suiteXmlFile>  
-                          </suiteXmlFiles>
-                          <properties>
-                        <property>
-                            <name>usedefaultlisteners</name>
-                            <value>false</value>
-                        </property>
-                        <property>
-                            <name>listener</name>
-                            <value>org.uncommons.reportng.HTMLReporter,org.uncommons.reportng.JUnitXMLReporter</value>
-                        </property>
-                    </properties>
-                    <workingDirectory>target/</workingDirectory>
-                          
-                          
-                          
+                          </properties>                                                                            
  <!--                           
                             
                               
@@ -231,6 +195,42 @@
                     </execution>
                 </executions>
 			</plugin>
+			<plugin>
+			 <!-- TestNG 生成的测试报告 -->  <!-- TestNG 生成的测试报告 -->                  
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.5</version>
+                  <dependencies>     
+                         <dependency>
+                           <groupId>ru.yandex.qatools.allure</groupId>
+                           <artifactId>allure-maven-plugin</artifactId>
+                           <version>2.3</version>
+                         </dependency>                         
+                        <dependency>
+                          <groupId>ru.yandex.qatools.allure</groupId>
+                          <artifactId>allure-testng-adaptor</artifactId>
+                          <version>1.4.14</version>
+                        </dependency>
+                    </dependencies>
+                <configuration>
+                    <properties>
+                        <property>
+                            <name>usedefaultlisteners</name>
+                            <value>false</value>
+                        </property>
+                        <property>
+                            <name>listener</name>
+                            <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value>
+                        </property>
+                    </properties>
+                    <workingDirectory>target/</workingDirectory>
+                    <suiteXmlFiles>
+                    <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <reportsDirectory>F:/TestSoapUI/TestSoapUI/Soapui/test-output</reportsDirectory>
+                </configuration>
+
+            </plugin>
 			
 		</plugins>
 	</build>
