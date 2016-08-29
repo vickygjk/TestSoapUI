@@ -1,0 +1,398 @@
+2016-08-18 10:42:01,474 INFO  [SoapUI] Adding [D:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\ext\customer.jar] to extensions classpath
+2016-08-18 10:42:01,475 INFO  [SoapUI] Adding [D:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\ext\postgresql-8.3-604.jdbc3.jar] to extensions classpath
+2016-08-18 10:42:01,475 INFO  [SoapUI] Adding [D:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\ext\postgresql-8.3-604.jdbc4.jar] to extensions classpath
+2016-08-18 10:42:01,475 INFO  [SoapUI] Adding [D:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\ext\sqljdbc.jar] to extensions classpath
+2016-08-18 10:42:01,475 INFO  [DefaultSoapUICore] Creating new settings at [C:\WINDOWS\system32\config\systemprofile\soapui-settings.xml]
+2016-08-18 10:42:02,632 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [F:\TestSoapUI\TestSoapUI\Soapui\bin]
+2016-08-18 10:42:02,638 INFO  [DefaultSoapUICore] Adding listeners from [D:\Program Files\SmartBear\SoapUI-Pro-5.1.2\bin\listeners\demo-listeners.xml]
+2016-08-18 10:42:05,307 INFO  [WsdlProject] Loaded project from [file:/F:/TestSoapUI/TestSoapUI/Soapui/project_xml/ReportList.xml]
+2016-08-18 10:42:05,996 INFO  [SoapUIProGroovyScriptEngineFactory] Setting Script Library to [F:\TestSoapUI\TestSoapUI\Soapui\bin]
+2016-08-18 10:42:07,427 INFO  [SoapUIProTestCaseRunner] Running SoapUI tests in project [ReportList]
+2016-08-18 10:42:07,539 INFO  [SoapUIProTestCaseRunner] Running Project [ReportList], runType = SEQUENTIAL
+2016-08-18 10:42:07,598 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [ReportList-报告单列表]
+2016-08-18 10:42:07,626 INFO  [SoapUIProTestCaseRunner] running step [ReportListAll]
+2016-08-18 10:42:08,440 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:08,441 INFO  [SoapUIProTestCaseRunner] Assertion [Script Assertion] has status VALID
+2016-08-18 10:42:08,463 INFO  [SoapUIProTestCaseRunner] running step [ServiceID]
+2016-08-18 10:42:08,615 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [ReportList-报告单列表], time taken: 634ms, status: FINISHED
+2016-08-18 10:42:08,617 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [根据serviceID查询报告单]
+2016-08-18 10:42:08,617 INFO  [SoapUIProTestCaseRunner] running step [ReportList_ServiceID]
+2016-08-18 10:42:08,727 INFO  [SoapUIProTestCaseRunner] Assertion [JsonPath Count] has status VALID
+2016-08-18 10:42:08,727 INFO  [SoapUIProTestCaseRunner] Assertion [Response SLA] has status VALID
+2016-08-18 10:42:08,730 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [根据serviceID查询报告单], time taken: 80ms, status: FINISHED
+2016-08-18 10:42:08,742 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [注册IM用户]
+2016-08-18 10:42:09,494 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2016-08-18 10:42:09,591 INFO  [SoapUIProTestCaseRunner] running step [IMuser]
+2016-08-18 10:42:09,708 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:09,709 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:10,202 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:10,222 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:10,254 INFO  [SoapUIProTestCaseRunner] running step [IMuser]
+2016-08-18 10:42:10,292 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:10,293 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:10,294 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:10,297 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:10,298 INFO  [SoapUIProTestCaseRunner] running step [IMuser]
+2016-08-18 10:42:10,337 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:10,338 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:10,339 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:10,340 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:10,341 INFO  [SoapUIProTestCaseRunner] running step [IMuser]
+2016-08-18 10:42:10,381 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:10,382 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:10,383 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:10,384 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:10,385 INFO  [SoapUIProTestCaseRunner] running step [IMuserInfo]
+2016-08-18 10:42:10,428 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:10,431 INFO  [SoapUIProTestCaseRunner] running step [userid]
+2016-08-18 10:42:10,637 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [注册IM用户], time taken: 773ms, status: FINISHED
+2016-08-18 10:42:10,638 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [编辑IM用户]
+2016-08-18 10:42:10,638 INFO  [SoapUIProTestCaseRunner] running step [DataGen]
+2016-08-18 10:42:10,742 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:10,792 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:10,796 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [编辑IM用户], time taken: 146ms, status: FINISHED
+2016-08-18 10:42:10,797 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [创建讨论组]
+2016-08-18 10:42:10,798 INFO  [SoapUIProTestCaseRunner] running step [创建讨论组]
+2016-08-18 10:42:10,842 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:10,843 INFO  [SoapUIProTestCaseRunner] running step [groupID]
+2016-08-18 10:42:10,876 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [创建讨论组], time taken: 40ms, status: FINISHED
+2016-08-18 10:42:10,877 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [编辑讨论组]
+2016-08-18 10:42:10,877 INFO  [SoapUIProTestCaseRunner] running step [编辑讨论组]
+2016-08-18 10:42:10,916 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:10,918 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [编辑讨论组], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:10,918 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取讨论组详情]
+2016-08-18 10:42:10,918 INFO  [SoapUIProTestCaseRunner] running step [获取讨论组详情]
+2016-08-18 10:42:10,963 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:10,964 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取讨论组详情], time taken: 40ms, status: FINISHED
+2016-08-18 10:42:10,965 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [添加讨论组成员]
+2016-08-18 10:42:10,965 INFO  [SoapUIProTestCaseRunner] running step [添加讨论组成员]
+2016-08-18 10:42:11,008 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:11,008 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2016-08-18 10:42:11,009 INFO  [SoapUIProTestCaseRunner] running step [userid]
+2016-08-18 10:42:11,011 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [添加讨论组成员], time taken: 41ms, status: FINISHED
+2016-08-18 10:42:11,012 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [修改讨论组成员]
+2016-08-18 10:42:11,012 INFO  [SoapUIProTestCaseRunner] running step [修改讨论组成员]
+2016-08-18 10:42:11,052 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:11,052 INFO  [SoapUIProTestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2016-08-18 10:42:11,053 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [修改讨论组成员], time taken: 37ms, status: FINISHED
+2016-08-18 10:42:11,053 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [删除讨论组成员]
+2016-08-18 10:42:11,054 INFO  [SoapUIProTestCaseRunner] running step [删除讨论组成员]
+2016-08-18 10:42:11,100 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:11,101 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [删除讨论组成员], time taken: 42ms, status: FINISHED
+2016-08-18 10:42:11,102 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [删除讨论组]
+2016-08-18 10:42:11,102 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:11,142 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:11,142 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [删除讨论组], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:11,143 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [删除IM用户]
+2016-08-18 10:42:11,143 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:11,186 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:11,188 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [删除IM用户], time taken: 40ms, status: FINISHED
+2016-08-18 10:42:11,191 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [患者登录]
+2016-08-18 10:42:11,191 INFO  [SoapUIProTestCaseRunner] running step [用户登录]
+2016-08-18 10:42:11,268 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:11,293 INFO  [SoapUIProTestCaseRunner] running step [userID]
+2016-08-18 10:42:11,302 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [患者登录], time taken: 79ms, status: FINISHED
+2016-08-18 10:42:11,308 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取医生列表]
+2016-08-18 10:42:11,309 INFO  [SoapUIProTestCaseRunner] running step [获取医生列表 - Request 1]
+2016-08-18 10:42:11,358 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2016-08-18 10:42:11,359 ERROR [SoapUIProTestCaseRunner] Property Transfer failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\用户接口-获取医生列表-Property_Transfer-0-FAILED.txt]
+2016-08-18 10:42:11,362 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取医生列表], time taken: 35ms, status: FAILED
+2016-08-18 10:42:11,364 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [申请添加医生]
+2016-08-18 10:42:11,436 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2016-08-18 10:42:11,496 INFO  [SoapUIProTestCaseRunner] running step [申请添加医生]
+2016-08-18 10:42:11,538 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:11,539 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:11,579 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:11,581 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:11,581 INFO  [SoapUIProTestCaseRunner] running step [申请添加医生]
+2016-08-18 10:42:11,619 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:11,620 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:11,622 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:11,623 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:11,624 INFO  [SoapUIProTestCaseRunner] running step [申请添加医生]
+2016-08-18 10:42:11,662 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:11,663 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:11,664 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:11,666 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:11,667 INFO  [SoapUIProTestCaseRunner] running step [申请添加医生]
+2016-08-18 10:42:11,702 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:11,703 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:11,704 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:11,706 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:11,757 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [申请添加医生], time taken: 208ms, status: FINISHED
+2016-08-18 10:42:11,757 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [用户添加联系人]
+2016-08-18 10:42:11,758 INFO  [SoapUIProTestCaseRunner] running step [用户添加联系人 - Request 1]
+2016-08-18 10:42:11,794 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [用户添加联系人], time taken: 32ms, status: FINISHED
+2016-08-18 10:42:11,795 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [用户获取和搜索联系人]
+2016-08-18 10:42:11,796 INFO  [SoapUIProTestCaseRunner] running step [用户获取和搜索联系人列表]
+2016-08-18 10:42:11,853 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [用户获取和搜索联系人], time taken: 30ms, status: FINISHED
+2016-08-18 10:42:11,854 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [用户获取联系人详情]
+2016-08-18 10:42:11,854 INFO  [SoapUIProTestCaseRunner] running step [用户获取联系人详情]
+2016-08-18 10:42:11,890 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [用户获取联系人详情], time taken: 31ms, status: FINISHED
+2016-08-18 10:42:11,896 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [用户删除联系人]
+2016-08-18 10:42:11,896 INFO  [SoapUIProTestCaseRunner] running step [用户删除联系人]
+2016-08-18 10:42:11,935 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [用户删除联系人], time taken: 32ms, status: FINISHED
+2016-08-18 10:42:11,936 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [用户健康档案]
+2016-08-18 10:42:11,937 INFO  [SoapUIProTestCaseRunner] running step [健康档案 - Request 1]
+2016-08-18 10:42:11,972 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [用户健康档案], time taken: 31ms, status: FINISHED
+2016-08-18 10:42:11,974 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [更新用户健康档案]
+2016-08-18 10:42:11,974 INFO  [SoapUIProTestCaseRunner] running step [更新健康档案]
+2016-08-18 10:42:12,010 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [更新用户健康档案], time taken: 31ms, status: FINISHED
+2016-08-18 10:42:12,010 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [删除用户健康档案]
+2016-08-18 10:42:12,010 INFO  [SoapUIProTestCaseRunner] running step [删除健康档案]
+2016-08-18 10:42:12,043 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [删除用户健康档案], time taken: 29ms, status: FINISHED
+2016-08-18 10:42:12,074 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [Copy医生登录]
+2016-08-18 10:42:12,074 INFO  [SoapUIProTestCaseRunner] running step [医生登录]
+2016-08-18 10:42:12,156 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:12,180 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2016-08-18 10:42:12,184 INFO  [SoapUIProTestCaseRunner] running step [获取医生ID和sessiontoken]
+2016-08-18 10:42:12,358 INFO  [log] 返回JSON字符串数据 ：[msg:ok, code:200, data:[doctor:[reverseCert:http://baidu/cat.jpg, address:[zipCode:560000, districtId:20002, address:银灰大厦100号, cityName:广州市, districtName:荔湾区, provinceName:广东省, cityId:1948, provinceId:1947], gender:1, level:1, levelCert:http://baidu/cat.jpg, profiles:个人介绍, jobUnit:中山三院, avatar:http://baidu/cat.jpg, office:儿科医生, imId:1030739, practiceCert:http://baidu/cat.jpg, serviceState:true, idCert:http://baidu/cat.jpg, phone:13265324358, isReception:true, hospitalId:57a9a7f373ddeb6a28620001, name:Coco, id:577f1e9873ddeb2697e79cbd, state:4, username:18924127298], sessionToken:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjQsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.guWpxB7jwZkJNMlnINMaaZA4g_yIV3aAVb6MmkX-j28, version:1471488164284777793, contacts:[[gender:1, phone:18924127298, name:vicky, alias:, avatar:http://image.gjk365.com/group1/M00/00/28/CqhW4lcsSPeAHf1dAAA7EFCcHuU696.jpg, state:3, userId:572c459b16d59631d8000035, version:1470887675007162074, imId:, age:0]]]]
+2016-08-18 10:42:12,359 INFO  [log] 返回json字符串结果 ： ok
+2016-08-18 10:42:12,361 INFO  [log] 返回数据 ：4
+2016-08-18 10:42:12,366 INFO  [log] 获取医生信息成功！
+2016-08-18 10:42:12,366 INFO  [log] 医生ID：577f1e9873ddeb2697e79cbd
+2016-08-18 10:42:12,366 INFO  [log] 医生登录token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjQsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.guWpxB7jwZkJNMlnINMaaZA4g_yIV3aAVb6MmkX-j28
+2016-08-18 10:42:12,368 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [Copy医生登录], time taken: 261ms, status: FINISHED
+2016-08-18 10:42:12,368 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生登录]
+2016-08-18 10:42:12,426 INFO  [SoapUIProTestCaseRunner] running step [DataSource]
+2016-08-18 10:42:12,474 INFO  [SoapUIProTestCaseRunner] running step [医生登录]
+2016-08-18 10:42:12,522 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:12,524 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:12,542 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:12,544 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:12,545 INFO  [SoapUIProTestCaseRunner] running step [医生登录]
+2016-08-18 10:42:12,583 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:12,585 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:12,586 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:12,588 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:12,589 INFO  [SoapUIProTestCaseRunner] running step [医生登录]
+2016-08-18 10:42:12,627 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:12,632 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:12,634 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:12,636 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:12,636 INFO  [SoapUIProTestCaseRunner] running step [医生登录]
+2016-08-18 10:42:12,675 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status UNKNOWN
+2016-08-18 10:42:12,693 INFO  [SoapUIProTestCaseRunner] running step [返回结果]
+2016-08-18 10:42:12,694 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:12,695 INFO  [SoapUIProTestCaseRunner] running step [DataSource Loop]
+2016-08-18 10:42:12,732 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生登录], time taken: 213ms, status: FINISHED
+2016-08-18 10:42:12,733 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [提交信息]
+2016-08-18 10:42:12,771 INFO  [SoapUIProTestCaseRunner] running step [获取返回json格式参数信息]
+2016-08-18 10:42:12,885 INFO  [log] {"code":200,"msg":"ok","data":{"contacts":[{"imId":"","userId":"572c459b16d59631d8000035","name":"vicky","alias":"","gender":1,"age":0,"avatar":"http://image.gjk365.com/group1/M00/00/28/CqhW4lcsSPeAHf1dAAA7EFCcHuU696.jpg","phone":"18924127298","version":"1470887675007162074","state":3}],"doctor":{"id":"577f1e9873ddeb2697e79cbd","imId":"1030739","username":"18924127298","name":"Coco","gender":1,"avatar":"http://baidu/cat.jpg","serviceState":true,"level":1,"state":4,"phone":"13265324358","address":{"provinceId":1947,"provinceName":"广东省","cityId":1948,"cityName":"广州市","districtId":20002,"districtName":"荔湾区","address":"银灰大厦100号","zipCode":"560000"},"isReception":true,"hospitalId":"57a9a7f373ddeb6a28620001","jobUnit":"中山三院","office":"儿科医生","idCert":"http://baidu/cat.jpg","reverseCert":"http://baidu/cat.jpg","levelCert":"http://baidu/cat.jpg","practiceCert":"http://baidu/cat.jpg","profiles":"个人介绍"},"sessionToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjQsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.guWpxB7jwZkJNMlnINMaaZA4g_yIV3aAVb6MmkX-j28","version":"1471488164999242345"}}
+
+2016-08-18 10:42:12,888 INFO  [log] 返回JSON字符串数据：[msg:ok, code:200, data:[doctor:[reverseCert:http://baidu/cat.jpg, address:[zipCode:560000, districtId:20002, address:银灰大厦100号, cityName:广州市, districtName:荔湾区, provinceName:广东省, cityId:1948, provinceId:1947], gender:1, level:1, levelCert:http://baidu/cat.jpg, profiles:个人介绍, jobUnit:中山三院, avatar:http://baidu/cat.jpg, office:儿科医生, imId:1030739, practiceCert:http://baidu/cat.jpg, serviceState:true, idCert:http://baidu/cat.jpg, phone:13265324358, isReception:true, hospitalId:57a9a7f373ddeb6a28620001, name:Coco, id:577f1e9873ddeb2697e79cbd, state:4, username:18924127298], sessionToken:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjQsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.guWpxB7jwZkJNMlnINMaaZA4g_yIV3aAVb6MmkX-j28, version:1471488164999242345, contacts:[[gender:1, phone:18924127298, name:vicky, alias:, avatar:http://image.gjk365.com/group1/M00/00/28/CqhW4lcsSPeAHf1dAAA7EFCcHuU696.jpg, state:3, userId:572c459b16d59631d8000035, version:1470887675007162074, imId:, age:0]]]]
+2016-08-18 10:42:12,888 INFO  [log] 医生登录token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjQsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.guWpxB7jwZkJNMlnINMaaZA4g_yIV3aAVb6MmkX-j28
+2016-08-18 10:42:12,890 INFO  [SoapUIProTestCaseRunner] running step [DataSink]
+2016-08-18 10:42:12,891 INFO  [SoapUIProTestCaseRunner] running step [提交信息]
+2016-08-18 10:42:13,016 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:13,019 INFO  [SoapUIProTestCaseRunner] running step [Run TestCase]
+2016-08-18 10:42:13,246 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [Copy医生登录]
+2016-08-18 10:42:13,247 INFO  [SoapUIProTestCaseRunner] running step [医生登录]
+2016-08-18 10:42:13,297 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:13,298 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2016-08-18 10:42:13,301 INFO  [SoapUIProTestCaseRunner] running step [获取医生ID和sessiontoken]
+2016-08-18 10:42:13,304 INFO  [log] 返回JSON字符串数据 ：[msg:ok, code:200, data:[doctor:[reverseCert:http://baidu/cat.jpg, address:[zipCode:560000, districtId:20002, address:银灰大厦100号, cityName:广州市, districtName:荔湾区, provinceName:广东省, cityId:1948, provinceId:1947], gender:1, level:1, levelCert:http://baidu/cat.jpg, profiles:个人介绍, jobUnit:中山三院, avatar:http://baidu/cat.jpg, office:儿科医生, imId:1030739, practiceCert:http://baidu/cat.jpg, serviceState:true, idCert:http://baidu/cat.jpg, phone:13265324358, isReception:true, hospitalId:57a9a7f373ddeb6a28620001, name:Coco, id:577f1e9873ddeb2697e79cbd, state:4, username:18924127298], sessionToken:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjUsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.59SQABeRWvreSUjSrSTTDNh0aTvXmmmrgbF4QKdhjwE, version:1471488165425075995, contacts:[[gender:1, phone:18924127298, name:vicky, alias:, avatar:http://image.gjk365.com/group1/M00/00/28/CqhW4lcsSPeAHf1dAAA7EFCcHuU696.jpg, state:3, userId:572c459b16d59631d8000035, version:1470887675007162074, imId:, age:0]]]]
+2016-08-18 10:42:13,304 INFO  [log] 返回json字符串结果 ： ok
+2016-08-18 10:42:13,305 INFO  [log] 返回数据 ：4
+2016-08-18 10:42:13,305 INFO  [log] 获取医生信息成功！
+2016-08-18 10:42:13,305 INFO  [log] 医生ID：577f1e9873ddeb2697e79cbd
+2016-08-18 10:42:13,305 INFO  [log] 医生登录token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjUsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.59SQABeRWvreSUjSrSTTDNh0aTvXmmmrgbF4QKdhjwE
+2016-08-18 10:42:13,306 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [Copy医生登录], time taken: 50ms, status: FINISHED
+2016-08-18 10:42:13,343 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [提交信息], time taken: 297ms, status: FINISHED
+2016-08-18 10:42:13,344 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [修改密码]
+2016-08-18 10:42:13,344 INFO  [SoapUIProTestCaseRunner] running step [修改密码]
+2016-08-18 10:42:13,387 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:13,428 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [修改密码], time taken: 40ms, status: FINISHED
+2016-08-18 10:42:13,429 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生接诊状态]
+2016-08-18 10:42:13,429 INFO  [SoapUIProTestCaseRunner] running step [接诊状态(不接）]
+2016-08-18 10:42:13,466 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2016-08-18 10:42:13,466 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [ok] in Response
+2016-08-18 10:42:13,467 ERROR [SoapUIProTestCaseRunner] 接诊状态(不接） failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\DoctorInfo-医生接诊状态-接诊状态不接-0-FAILED.txt]
+2016-08-18 10:42:13,478 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生接诊状态], time taken: 35ms, status: FAILED
+2016-08-18 10:42:13,479 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [是否收费]
+2016-08-18 10:42:13,479 INFO  [SoapUIProTestCaseRunner] running step [是否收费（不收）]
+2016-08-18 10:42:13,518 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2016-08-18 10:42:13,518 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [ok] in Response
+2016-08-18 10:42:13,518 ERROR [SoapUIProTestCaseRunner] 是否收费（不收） failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\DoctorInfo-是否收费-是否收费不收-0-FAILED.txt]
+2016-08-18 10:42:13,519 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [是否收费], time taken: 37ms, status: FAILED
+2016-08-18 10:42:13,520 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取信息]
+2016-08-18 10:42:13,520 INFO  [SoapUIProTestCaseRunner] running step [Run TestCase 1]
+2016-08-18 10:42:13,557 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [Copy医生登录]
+2016-08-18 10:42:13,557 INFO  [SoapUIProTestCaseRunner] running step [医生登录]
+2016-08-18 10:42:13,617 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:13,618 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2016-08-18 10:42:13,630 INFO  [SoapUIProTestCaseRunner] running step [获取医生ID和sessiontoken]
+2016-08-18 10:42:13,639 INFO  [log] 返回JSON字符串数据 ：[msg:ok, code:200, data:[doctor:[reverseCert:http://baidu/cat.jpg, address:[zipCode:560000, districtId:20002, address:银灰大厦100号, cityName:广州市, districtName:荔湾区, provinceName:广东省, cityId:1948, provinceId:1947], gender:1, level:1, levelCert:http://baidu/cat.jpg, profiles:个人介绍, jobUnit:中山三院, avatar:http://baidu/cat.jpg, office:儿科医生, imId:1030739, practiceCert:http://baidu/cat.jpg, serviceState:true, idCert:http://baidu/cat.jpg, phone:13265324358, isReception:true, hospitalId:57a9a7f373ddeb6a28620001, name:Coco, id:577f1e9873ddeb2697e79cbd, state:4, username:18924127298], sessionToken:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjUsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.59SQABeRWvreSUjSrSTTDNh0aTvXmmmrgbF4QKdhjwE, version:1471488165745124031, contacts:[[gender:1, phone:18924127298, name:vicky, alias:, avatar:http://image.gjk365.com/group1/M00/00/28/CqhW4lcsSPeAHf1dAAA7EFCcHuU696.jpg, state:3, userId:572c459b16d59631d8000035, version:1470887675007162074, imId:, age:0]]]]
+2016-08-18 10:42:13,642 INFO  [log] 返回json字符串结果 ： ok
+2016-08-18 10:42:13,643 INFO  [log] 返回数据 ：4
+2016-08-18 10:42:13,644 INFO  [log] 获取医生信息成功！
+2016-08-18 10:42:13,645 INFO  [log] 医生ID：577f1e9873ddeb2697e79cbd
+2016-08-18 10:42:13,645 INFO  [log] 医生登录token：eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0NzIwOTI5NjUsImlkIjoiNTc3ZjFlOTg3M2RkZWIyNjk3ZTc5Y2JkIiwibmFtZSI6IiIsInVzZXJUeXBlIjoxLCJ1c2VybmFtZSI6IiJ9.59SQABeRWvreSUjSrSTTDNh0aTvXmmmrgbF4QKdhjwE
+2016-08-18 10:42:13,652 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [Copy医生登录], time taken: 79ms, status: FINISHED
+2016-08-18 10:42:13,655 INFO  [SoapUIProTestCaseRunner] running step [获取信息]
+2016-08-18 10:42:13,697 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:13,699 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取信息], time taken: 131ms, status: FINISHED
+2016-08-18 10:42:13,703 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生邀请患者]
+2016-08-18 10:42:13,704 INFO  [SoapUIProTestCaseRunner] running step [Delay]
+2016-08-18 10:42:14,749 INFO  [SoapUIProTestCaseRunner] running step [医生邀请用户（根据二维码userId）]
+2016-08-18 10:42:14,795 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:14,798 INFO  [SoapUIProTestCaseRunner] running step [医生邀请用户（根据手机号码）]
+2016-08-18 10:42:14,855 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:14,859 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生邀请患者], time taken: 1092ms, status: FINISHED
+2016-08-18 10:42:14,860 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [邀请列表]
+2016-08-18 10:42:14,860 INFO  [SoapUIProTestCaseRunner] running step [邀请列表]
+2016-08-18 10:42:14,902 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:14,911 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [邀请列表], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:14,912 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生添加联系人]
+2016-08-18 10:42:14,912 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:14,951 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2016-08-18 10:42:14,951 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [ok] in Response
+2016-08-18 10:42:14,951 INFO  [SoapUIProTestCaseRunner] Assertion [Check count of [version]] has status FAILED
+2016-08-18 10:42:14,951 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Assertion failed for path [$.data.contact.version] : PathNotFoundException:Path 'data' not found in the current context:
+{
+   "code": 500,
+   "msg": "该用户已在你联系人列表里面，不可以重复添加"
+}
+2016-08-18 10:42:14,951 ERROR [SoapUIProTestCaseRunner] Request 1 failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\医生联系人信息管理-医生添加联系人-Request_1-0-FAILED.txt]
+2016-08-18 10:42:14,968 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生添加联系人], time taken: 35ms, status: FAILED
+2016-08-18 10:42:14,968 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生获取和搜索联系人列表]
+2016-08-18 10:42:14,969 INFO  [SoapUIProTestCaseRunner] running step [医生获取和搜索联系人列表 - Request 1]
+2016-08-18 10:42:15,009 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,021 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生获取和搜索联系人列表], time taken: 37ms, status: FINISHED
+2016-08-18 10:42:15,022 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生获取联系人详情]
+2016-08-18 10:42:15,022 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:15,064 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,065 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生获取联系人详情], time taken: 38ms, status: FINISHED
+2016-08-18 10:42:15,066 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生创建标签]
+2016-08-18 10:42:15,066 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:15,106 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,107 INFO  [SoapUIProTestCaseRunner] running step [标签ID]
+2016-08-18 10:42:15,113 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生创建标签], time taken: 39ms, status: FINISHED
+2016-08-18 10:42:15,114 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生设置联系人标签]
+2016-08-18 10:42:15,114 INFO  [SoapUIProTestCaseRunner] running step [医生设置联系人标签]
+2016-08-18 10:42:15,153 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,154 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生设置联系人标签], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:15,154 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生设置联系人备注名称]
+2016-08-18 10:42:15,154 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:15,196 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,197 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生设置联系人备注名称], time taken: 37ms, status: FINISHED
+2016-08-18 10:42:15,198 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生获取该标签和病人]
+2016-08-18 10:42:15,198 INFO  [SoapUIProTestCaseRunner] running step [医生设置联系人标签 - Request 1]
+2016-08-18 10:42:15,245 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,246 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生获取该标签和病人], time taken: 43ms, status: FINISHED
+2016-08-18 10:42:15,248 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [病人的报告单列表]
+2016-08-18 10:42:15,248 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:15,288 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,289 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [病人的报告单列表], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:15,290 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [创建快捷回复]
+2016-08-18 10:42:15,290 INFO  [SoapUIProTestCaseRunner] running step [创建快捷回复]
+2016-08-18 10:42:15,330 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,334 INFO  [SoapUIProTestCaseRunner] running step [replyId]
+2016-08-18 10:42:15,338 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [创建快捷回复], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:15,340 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [创建问诊费订单]
+2016-08-18 10:42:15,340 INFO  [SoapUIProTestCaseRunner] running step [创建问诊费订单]
+2016-08-18 10:42:15,379 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2016-08-18 10:42:15,379 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [ok] in Response
+2016-08-18 10:42:15,379 ERROR [SoapUIProTestCaseRunner] 创建问诊费订单 failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\医生联系人信息管理-创建问诊费订单-创建问诊费订单-0-FAILED.txt]
+2016-08-18 10:42:15,383 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [创建问诊费订单], time taken: 33ms, status: FAILED
+2016-08-18 10:42:15,384 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生把联系人加入或退出标签]
+2016-08-18 10:42:15,385 INFO  [SoapUIProTestCaseRunner] running step [加入]
+2016-08-18 10:42:15,429 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,433 INFO  [SoapUIProTestCaseRunner] running step [退出]
+2016-08-18 10:42:15,488 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,489 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生把联系人加入或退出标签], time taken: 92ms, status: FINISHED
+2016-08-18 10:42:15,490 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生删除联系人信息]
+2016-08-18 10:42:15,490 INFO  [SoapUIProTestCaseRunner] running step [医生删除联系人信息]
+2016-08-18 10:42:15,532 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,535 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生删除联系人信息], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:15,538 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生创建标签]
+2016-08-18 10:42:15,538 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:15,578 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,579 INFO  [SoapUIProTestCaseRunner] running step [标签ID]
+2016-08-18 10:42:15,580 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生创建标签], time taken: 37ms, status: FINISHED
+2016-08-18 10:42:15,581 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生修改标签]
+2016-08-18 10:42:15,581 INFO  [SoapUIProTestCaseRunner] running step [Request 1]
+2016-08-18 10:42:15,619 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,620 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生修改标签], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:15,621 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生获取所有标签]
+2016-08-18 10:42:15,621 INFO  [SoapUIProTestCaseRunner] running step [医生获取所有标签 - Request 1]
+2016-08-18 10:42:15,659 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,660 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生获取所有标签], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:15,661 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [医生删除标签]
+2016-08-18 10:42:15,661 INFO  [SoapUIProTestCaseRunner] running step [医生删除标签 - Request 1]
+2016-08-18 10:42:15,700 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,701 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [医生删除标签], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:15,703 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [问诊表列表]
+2016-08-18 10:42:15,703 INFO  [SoapUIProTestCaseRunner] running step [问诊表列表]
+2016-08-18 10:42:15,741 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,742 INFO  [SoapUIProTestCaseRunner] running step [问诊表ID]
+2016-08-18 10:42:15,743 ERROR [SoapUIProTestCaseRunner] 问诊表ID failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\医生创建问诊表-问诊表列表-问诊表ID-0-FAILED.txt]
+2016-08-18 10:42:15,744 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [问诊表列表], time taken: 37ms, status: FAILED
+2016-08-18 10:42:15,745 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [问诊表详情]
+2016-08-18 10:42:15,745 INFO  [SoapUIProTestCaseRunner] running step [问诊表详情]
+2016-08-18 10:42:15,786 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,800 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [问诊表详情], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:15,805 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [创建快捷回复]
+2016-08-18 10:42:15,805 INFO  [SoapUIProTestCaseRunner] running step [创建快捷回复]
+2016-08-18 10:42:15,844 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,845 INFO  [SoapUIProTestCaseRunner] running step [replyId]
+2016-08-18 10:42:15,850 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [创建快捷回复], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:15,851 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [更新快捷回复]
+2016-08-18 10:42:15,851 INFO  [SoapUIProTestCaseRunner] running step [更新快捷回复]
+2016-08-18 10:42:15,894 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,896 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [更新快捷回复], time taken: 40ms, status: FINISHED
+2016-08-18 10:42:15,897 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取快捷回复]
+2016-08-18 10:42:15,897 INFO  [SoapUIProTestCaseRunner] running step [获取快捷回复 - Request 1]
+2016-08-18 10:42:15,937 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2016-08-18 10:42:15,937 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> null/empty response
+2016-08-18 10:42:15,937 ERROR [SoapUIProTestCaseRunner] 获取快捷回复 - Request 1 failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\创建快捷回复-获取快捷回复-获取快捷回复__Request_1-0-FAILED.txt]
+2016-08-18 10:42:15,938 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取快捷回复], time taken: 38ms, status: FAILED
+2016-08-18 10:42:15,939 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [删除快捷回复]
+2016-08-18 10:42:15,939 INFO  [SoapUIProTestCaseRunner] running step [删除快捷回复 - Request 1]
+2016-08-18 10:42:15,978 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:15,980 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [删除快捷回复], time taken: 35ms, status: FINISHED
+2016-08-18 10:42:15,983 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [修改首诊疗记录]
+2016-08-18 10:42:15,983 INFO  [SoapUIProTestCaseRunner] running step [修改首诊记录]
+2016-08-18 10:42:16,023 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:16,026 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [修改首诊疗记录], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:16,027 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取首诊疗记录]
+2016-08-18 10:42:16,028 INFO  [SoapUIProTestCaseRunner] running step [获取首诊记录 - Request 1]
+2016-08-18 10:42:16,067 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:16,068 INFO  [SoapUIProTestCaseRunner] running step [首诊记录ID]
+2016-08-18 10:42:16,071 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取首诊疗记录], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:16,071 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [添加诊疗记录]
+2016-08-18 10:42:16,071 INFO  [SoapUIProTestCaseRunner] running step [添加诊疗记录]
+2016-08-18 10:42:16,107 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2016-08-18 10:42:16,107 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [ok] in Response
+2016-08-18 10:42:16,107 ERROR [SoapUIProTestCaseRunner] 添加诊疗记录 failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\医生创建诊疗记录-添加诊疗记录-添加诊疗记录-0-FAILED.txt]
+2016-08-18 10:42:16,108 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [添加诊疗记录], time taken: 33ms, status: FAILED
+2016-08-18 10:42:16,109 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取诊疗记录]
+2016-08-18 10:42:16,109 INFO  [SoapUIProTestCaseRunner] running step [获取诊记录 - Request 1]
+2016-08-18 10:42:16,152 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:16,153 INFO  [SoapUIProTestCaseRunner] running step [Property Transfer]
+2016-08-18 10:42:16,157 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取诊疗记录], time taken: 38ms, status: FINISHED
+2016-08-18 10:42:16,158 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [修改诊疗记录]
+2016-08-18 10:42:16,158 INFO  [SoapUIProTestCaseRunner] running step [修改诊疗记录]
+2016-08-18 10:42:16,198 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:16,199 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [修改诊疗记录], time taken: 36ms, status: FINISHED
+2016-08-18 10:42:16,200 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [创建问诊表结果]
+2016-08-18 10:42:16,200 INFO  [SoapUIProTestCaseRunner] running step [创建问诊表结果]
+2016-08-18 10:42:16,237 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status FAILED
+2016-08-18 10:42:16,237 ERROR [SoapUIProTestCaseRunner] ASSERTION FAILED -> Missing token [ok] in Response
+2016-08-18 10:42:16,237 ERROR [SoapUIProTestCaseRunner] 创建问诊表结果 failed, exporting to [F:/TestSoapUI/TestSoapUI/Soapui/project_report\医生创建诊疗记录-创建问诊表结果-创建问诊表结果-0-FAILED.txt]
+2016-08-18 10:42:16,238 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [创建问诊表结果], time taken: 34ms, status: FAILED
+2016-08-18 10:42:16,238 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [更新问诊表结果]
+2016-08-18 10:42:16,238 INFO  [SoapUIProTestCaseRunner] running step [Properties]
+2016-08-18 10:42:16,266 INFO  [SoapUIProTestCaseRunner] running step [更新问诊表结果]
+2016-08-18 10:42:16,306 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:16,307 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [更新问诊表结果], time taken: 64ms, status: FINISHED
+2016-08-18 10:42:16,307 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取问诊表结果详情]
+2016-08-18 10:42:16,307 INFO  [SoapUIProTestCaseRunner] running step [获取问诊表结果详情 - Request 1]
+2016-08-18 10:42:16,348 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:16,349 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取问诊表结果详情], time taken: 37ms, status: FINISHED
+2016-08-18 10:42:16,350 INFO  [SoapUIProTestCaseRunner] Running SoapUI testcase [获取问诊表结果列表]
+2016-08-18 10:42:16,350 INFO  [SoapUIProTestCaseRunner] running step [获取问诊表结果列表 - Request 1]
+2016-08-18 10:42:16,394 INFO  [SoapUIProTestCaseRunner] Assertion [Contains] has status VALID
+2016-08-18 10:42:16,395 INFO  [SoapUIProTestCaseRunner] Finished running SoapUI testcase [获取问诊表结果列表], time taken: 38ms, status: FINISHED
+2016-08-18 10:42:16,396 INFO  [SoapUIProTestCaseRunner] Project [ReportList] finished with status [FAILED] in 8849ms
+2016-08-18 10:42:17,486 INFO  [SoapUIProTestCaseRunner] Created report at file:/F:/TestSoapUI/TestSoapUI/Soapui/project_report/index.html
